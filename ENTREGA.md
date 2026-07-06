@@ -16,8 +16,3 @@ três rodam no mesmo nó; uma frota de 4 nós demonstra o sistema. Detalhes,
 experimentos e decisões de projeto no relatório.
 
 ---
-
-## Checklist antes de enviar
-
-- [ ] **Gravar o vídeo** (~10 min) e colar o link. Roteiro sugerido em
-      `docs/ROTEIRO_VIDEO.md`. *(deixado para depois, conforme combinado)*
