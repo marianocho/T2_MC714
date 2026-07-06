@@ -1,0 +1,32 @@
+services:
+  node1:
+    build: .
+    container_name: node1
+    hostname: node1
+    command: ["python", "run_node.py", "--id", "1", "--config", "config.docker.json", "--mode", "demo"]
+    networks: [sdnet]
+
+  node2:
+    build: .
+    container_name: node2
+    hostname: node2
+    command: ["python", "run_node.py", "--id", "2", "--config", "config.docker.json", "--mode", "demo"]
+    networks: [sdnet]
+
+  node3:
+    build: .
+    container_name: node3
+    hostname: node3
+    command: ["python", "run_node.py", "--id", "3", "--config", "config.docker.json", "--mode", "demo"]
+    networks: [sdnet]
+
+  node4:
+    build: .
+    container_name: node4
+    hostname: node4
+    command: ["python", "run_node.py", "--id", "4", "--config", "config.docker.json", "--mode", "demo"]
+    networks: [sdnet]
+
+networks:
+  sdnet:
+    driver: bridge

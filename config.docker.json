@@ -1,0 +1,8 @@
+{
+  "nodes": {
+    "1": { "host": "node1", "port": 5000 },
+    "2": { "host": "node2", "port": 5000 },
+    "3": { "host": "node3", "port": 5000 },
+    "4": { "host": "node4", "port": 5000 }
+  }
+}
